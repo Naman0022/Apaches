@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    ;
 }
 .background {
   background: linear-gradient(132deg, #591BC5, #212335);
@@ -250,13 +249,13 @@ nav .logo span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 8%;
+    padding: 50px;
 }
 nav .logo{
     display: flex;
-    align-items: center;
-    font-size: 26px;
-    font-weight: 600;
+    align-items: left;
+    font-size: 50px;
+    font-weight: 100;
     color: 146356;
 }
 nav .logo img{
@@ -264,11 +263,11 @@ nav .logo img{
     margin-right: 10px;
 }
 nav .logo span{
-  color: rgb(0, 0, 0);
+  color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   white-space: nowrap;
 }
-nav ul li::after{
+/* nav ul li::after{
   background-color: #4CAF50; /* Green */
 /*border: none;
 color: rgb(255, 255, 255);
@@ -289,8 +288,8 @@ nav ul li a{
     width: 100%;
 } */
 .footer{
-    background-color: #24262b;
-    padding: 70px 0;
+    background-color: #878d9e8c;
+    padding: 0px 0;
      font-family: 'Playfair Display', serif;
 
 }
@@ -306,8 +305,11 @@ nav ul li a{
 
 }
 .container{
-    max-width: 1170px;
+    width:100% ;
     margin:auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
 }
 .footer-col h4{
     font-size: 18px;
@@ -318,10 +320,16 @@ nav ul li a{
     position: relative;
 }
 .social{
-    position : right;
-    /* left:82.85%; */
-    margin-bottom: 70px;
-    padding: 10px;
+    position :absolute;
+    left:60%;
+    margin-bottom: 35px;
+    padding-left: 20%;
+    top: 115%;
+    border-radius: 50%;
+    margin: 0 40px 40px 0;
+color: aliceblue;
+
+    
     
 }
 .footer-col h4::before{
@@ -336,5 +344,32 @@ nav ul li a{
     
 }
 @media (max-width:767px) {
-    
+
+.header ul{
+  list-style: none;
+  background: #663366;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: auto;
+}
+.header li{
+  display: inline-block;
+  float: left;
+}
+.header a
+{
+  text-decoration: none;
+  color: #fff;
+  width: 127px;
+  display: block;
+  padding: 26px 5px;
+  font-size :15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+}
+.header a:hover{
+  background: orange;
 }
