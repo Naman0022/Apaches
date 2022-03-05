@@ -56,12 +56,12 @@ nav ul li a{
     width: 100%;
 }
 .footer{
-    background-color: #24262b;
-    padding: 70px 0;
+    background-color: #878d9e8c;
+    padding: 0px 0;
      font-family: 'Playfair Display', serif;
 
 }
-row{
+.row{
     display: flex;
     flex-wrap: wrap;
 }
@@ -72,8 +72,11 @@ row{
 
 }
 .container{
-    max-width: 1170px;
+    width:100% ;
     margin:auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
 }
 .footer-col h4{
     font-size: 18px;
@@ -84,10 +87,16 @@ row{
     position: relative;
 }
 .social{
-    position : right;
-    /* left:82.85%; */
-    margin-bottom: 70px;
-    padding: 10px;
+    position :absolute;
+    left:60%;
+    margin-bottom: 35px;
+    padding-left: 20%;
+    top: 115%;
+    border-radius: 50%;
+    margin: 0 40px 40px 0;
+color: aliceblue;
+
+    
     
 }
 .footer-col h4::before{
@@ -102,5 +111,5 @@ row{
     
 }
 @media (max-width:767px) {
-    
+
 }
