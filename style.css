@@ -35,28 +35,25 @@ nav .logo span{
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   white-space: nowrap;
 }
-nav ul li::after{
-  background-color: #4CAF50; /* Green */
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-
+.navlist {
+    width: 50%;
+    display: flex;
 }
-nav ul li a{
+
+.navlist li {
+    list-style: none;
+    padding: 26px 30px;
+    float: right;
+    display: inline;
+}
+
+.navlist li a {
     text-decoration: none;
     color: white;
-    font-weight: 500;
-    text-transform: uppercase;
+    display: inline;
+    
 }
-.nav ul li:hover::after {
-    width: 100%;
-}
-footer{
-    color: rgb(22, 2, 2);
-     padding: 10vh;
-     font-family: 'Playfair Display', serif;
+
+.navlist li a:hover {
+    color: black;
 }
