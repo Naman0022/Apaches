@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Papyrus' , sans-serif;
+    background-color: black;
 }
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(5,0,136,0.5), rgba(5,0,136,0.5)), url(doctors.jpg);
     background-position: center;
     background-size: cover;
+    font-family:'Papyrus' , sans-serif;
+    background-color: #146356;
 }
 nav{
     width: 100%;
@@ -23,31 +24,39 @@ nav .logo{
     align-items: center;
     font-size: 26px;
     font-weight: 600;
-    color: white;
+    color: 146356;
 }
 nav .logo img{
     width: 150px;
     margin-right: 10px;
 }
-nav ul li::after{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-    content: '';
-    height: 3px;
-    width: 0;
-    background: lightseagreen;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+nav .logo span{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  white-space: nowrap;
 }
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    text-transform: uppercase;
+.header ul{
+  list-style: none;
+  background: #663366;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
-.nav ul li:hover::after {
-    width: 100%;
+.header li{
+  display: inline-block;
+}
+.header a
+{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: :15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.header a:hover{
+  background: orange;
 }
