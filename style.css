@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
+    background-color: black;
 }
 .header{
     width: 100%;
@@ -35,25 +35,28 @@ nav .logo span{
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   white-space: nowrap;
 }
-.navlist {
-    width: 50%;
-    display: flex;
+.header ul{
+  list-style: none;
+  background: #663366;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
-
-.navlist li {
-    list-style: none;
-    padding: 26px 30px;
-    float: right;
-    display: inline;
+.header li{
+  display: inline-block;
 }
-
-.navlist li a {
-    text-decoration: none;
-    color: white;
-    display: inline;
-    
+.header a
+{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: :15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
-
-.navlist li a:hover {
-    color: black;
+.header a:hover{
+  background: orange;
 }
