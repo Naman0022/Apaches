@@ -31,11 +31,10 @@ nav .logo img{
     margin-right: 10px;
 }
 nav .logo span{
-  color: rgb(0, 0, 0);
+  color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   white-space: nowrap;
 }
-<<<<<<< HEAD
 .header ul{
   list-style: none;
   background: #663366;
@@ -63,74 +62,4 @@ nav .logo span{
 }
 .header a:hover{
   background: orange;
-=======
-nav ul li::after{
-  background-color: #4CAF50; /* Green */
-border: none;
-color: rgb(255, 255, 255);
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.nav ul li:hover::after {
-    width: 100%;
-}
-.footer{
-    background-color: #24262b;
-    padding: 70px 0;
-     font-family: 'Playfair Display', serif;
-
-}
-row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
-    color:white ;
-
-}
-.container{
-    max-width: 1170px;
-    margin:auto;
-}
-.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-}
-.social{
-    position : right;
-    /* left:82.85%; */
-    margin-bottom: 70px;
-    padding: 10px;
-    
-}
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color:#e91e63 ;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-    
-}
-@media (max-width:767px) {
-    
->>>>>>> a9c1f205b8e39f8cf37e14adae8d266fe8ce32cc
 }
