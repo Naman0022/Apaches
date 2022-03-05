@@ -7,7 +7,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(5,0,136,0.5), rgba(5,0,136,0.5)), url(doctors.jpg);
+    background-image: linear-gradient(rgba(252, 251, 255, 0.5), rgba(252, 252, 252, 0.5)), url(doctors.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -50,4 +50,9 @@ nav ul li a{
 }
 .nav ul li:hover::after {
     width: 100%;
+}
+footer{
+    color: rgb(22, 2, 2);
+     padding: 10vh;
+     font-family: 'Playfair Display', serif;
 }
