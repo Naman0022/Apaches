@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .background {
-  background: linear-gradient(132deg, #591BC5, #212335);
+  background: linear-gradient(132deg, #591BC5, #eeeff5);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
   position: absolute;
@@ -94,20 +94,20 @@ header{
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 70vh;
   overflow: hidden;
   background-color: rgb(0,0,0);
-  text-align: right;
+  text-align: center;
 }
 ul img{
-    float: left;
+    float: right;
 }
 ul h1{
     padding-top: 10px;
     padding-left: 10px;
     font-size: 30px;
     color: white;
-    float: left;
+    float: right;
     font-family: "Lobster", cursive;
 }
 ul h1 span{
@@ -118,7 +118,9 @@ ul h1 span{
 }
 li {
     padding-top: 10px;
-  float: right;
+  float: left;
+
+  /* right: 50%; */
 }
 
 /* li a {
@@ -136,7 +138,7 @@ li a:hover:not(.active) {
 } */
 li a {
   display: inline-block;
-  position: relative;
+  position:  top;
   color: #ffffff;
   text-decoration: none;
   font-size: 25px;
@@ -203,7 +205,8 @@ nav .logo span{
 .card img{
      position: absolute;
      bottom: 0;
-     left: 65%;
+     left: 60%;
+     padding-top: 6%;
      transform: translate(-50%);
      height: 400px;
      transition: 0.5s;
@@ -373,4 +376,53 @@ color: aliceblue;
 .header a:hover{
   background: orange;
 }
+.container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      flex-wrap: wrap;
+      padding: 40px 0;
+}
+.container .card1{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgb(0,0,0, 0.05),
+                inset -5px -5px 5px rgb(255,255,255, 0.5),
+                5px 5px 5px rgb(0,0,0,0.05),
+                -5px -5px 5px rgb(255,255,255, 0.5); 
+    border-radius: 15px;
+    margin: 30px;            
+}
+.container .card1 .box1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card1 .box1 .content1{
+    padding: 20px;
+    text-align: center;
+}
+.container .card1 .box1 .content1 h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0,0,0,0.05);
+    transform: 0.5s;
+}
+.container .card1:hover .box1 .content1 h2{
+    color: rgba(0,0,0,0.05) ;
+}
+.container .card1:hover .box1 .content1 h3{
+    font-size: 1.8em;
 }
