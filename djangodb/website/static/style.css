@@ -550,6 +550,15 @@ color: aliceblue;
 }
 .container .card1:hover .box1 .content1 h3{
     font-size: 1.8em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
 }
-}
+.container .card1:hover .box1 .content1 p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}}
 }
